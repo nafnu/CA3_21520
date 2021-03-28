@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta charset="UTF-8">
-        <meta name="author" content="Nathalie Flores">  
-        <title>Resume Nathalie Flores</title>
-        
-        <!--Boostrap Library-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+
+<head>
+    <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="UTF-8">  
+   <title>Resume Nathalie Flores</title>
+   <meta name="author" content="Nathalie Flores">
+   <meta name="description" content="CV Resume using HTML, CSS, Bootstrap and JavaScript">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Boostrap Library
+    ================================================== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-        <!--style for this document-->
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+   <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    </head>
+</head>
+
+<body>
+    <!-- Header
+   ================================================== -->
+   <header id="home">
+
+    <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+        <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+       <ul id="nav" class="nav">
+          <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+          <li><a class="smoothscroll" href="#about">About</a></li>
+           <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+          <li><a class="smoothscroll" href="#feedback">Feedback</a></li>
+          <li><a class="smoothscroll" href="#contact">Contact</a></li>
+       </ul> <!-- end #nav -->
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+        <div class="banner-text">
+            <h1 class="responsive-headline">Hey, I'm Nathalie, </h1>
+            <h3>A value team player who is <span>personable</span>, <span>dedicated</span> and <span> motivated.</span> I base my work on attention to detail. I never leave a screw untightened and I never miss a chance to optimize a task. 
+                If you want your project to be air-tight – I am what you’re looking for. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+                and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+         </div>
+    </div>
+
+   </header>
+    
+</body>
 
 
 </html>
-
