@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
 
+/*Webfonts and Icon fonts
+================================================== --*/
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
 /*Default and Basic Styles
 ================================================== --*/
 /*1.Basic  ------------------------------------------------------- */
