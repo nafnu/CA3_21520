@@ -13,16 +13,16 @@
    ================================================== -->
    <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <!--Boostrap Library
+       
+    <!--Boostrap CSS
     ================================================== -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
    <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/layout.css">
+    
 
 </head>
 
@@ -45,222 +45,63 @@
 
     </nav> <!-- end #nav-wrap -->
 
-    <div class="row banner">
-        <div class="banner-text">
-            <h1 class="responsive-headline">Hey, I'm Nathalie, </h1>
-            <h3>A value team player who is <span>personable</span>, <span>dedicated</span> and <span> motivated.</span> I base my work on attention to detail. I never leave a screw untightened and I never miss a chance to optimize a task. 
-                If you want your project to be air-tight – I am what you’re looking for. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-                and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr />
-            <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-         </div>
-    </div>
 
-    <p class="scrolldown">
-        <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-     </p>
+     <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+   <div class="container">
+     <a class="navbar-brand" href="#">Nathalie Flores</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarResponsive">
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home
+             <span class="sr-only">(current)</span>
+           </a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">About me</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Resumen</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Contact</a>
+         </li>
+       </ul>
+     </div>
+   </div>
+ </nav>
 
+ <!-- Page Content -->
+ <section>
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6">
+         <h1 class="mt-5">Hey, I'm Nathalie,</h1>
+         <p>A value team player who is personable, dedicated and motivated. I base my work on attention to detail. I never leave a screw untightened and I never miss a chance to optimize a task. 
+            If you want your project to be air-tight – I am what you’re looking for.</p>
+        <hr />
+        <ul class="social">
+           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+       </div>
+     </div>
+   </div>
+ </section>
+  
    </header><!-- Header End -->
-   <!-- About Section
+
+
+
+  <!-- Bootstrap Bundle with Popper
    ================================================== -->
-   <section id="about">
 
-    <div class="row">
-
-       <div class="three columns">
-
-          <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-       </div>
-
-       <div class="nine columns main-col">
-
-          <h2>About Me</h2>
-
-          <p>A natural person and problem solver. I have gone through a number of phases in my career, 
-            each of which has informed my current work ethic and philosophy. That's why I would like to focus on management now - looking at the big picture,
-            finding the right people to do various tasks, and making sure they have everything they need to do it successfully and efficiently. 
-            I believe that my main asset is my ability to adapt to any challenge that comes my way.          
-          </p>
-
-          <div class="row">
-
-             <div class="columns contact-details">
-
-                <h2>Contact Details</h2>
-                <p class="address">
-                         <span>Nathalie Flores</span><br>
-                         <span>Dublin 4<br>
-                               Ireland
-                   </span><br>
-                         <span>(1)888-88-88</span><br>
-                   <span>21520@student.dorset-college.com</span>
-                     </p>
-
-             </div>
-
-             <div class="columns download">
-                <p>
-                   <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
-                </p>
-             </div>
-
-          </div> <!-- end row -->
-
-       </div> <!-- end .main-col -->
-
-    </div>
-
- </section> <!-- About Section End-->
-
- <!-- Resume Section
-   ================================================== -->
-   <section id="resume">
-
-    <!-- Education
-    ----------------------------------------------- -->
-    <div class="row education">
-
-       <div class="three columns header-col">
-          <h1><span>Education</span></h1>
-       </div>
-
-       <div class="nine columns main-col">
-
-          <div class="row item">
-
-             <div class="twelve columns">
-
-                <h3>Dorset College Dublin</h3>
-                <p class="info">BSc in Science in Computing <span>&bull;</span> <em class="date">2019 - Currently </em></p>
-
-                <p>
-                I am preparing and developing the knowledge, skills and understanding of software engineering, operating systems, 
-                mathematical foundations and techniques, computer networks, cybersecurity, networks and social issues and ICT industry professionals.
-                I am in my second year of my degree, my goal is to request internships or volunteers for the summer in order to develop myself
-                in more projects. So far, I am very happy with my new skills that I have achieved, but I know something new is being learned every day!
-                </p>
-
-             </div>
-
-          </div> <!-- item end -->
-
-          <div class="row item">
-
-             <div class="twelve columns">
-
-                <h3>Universidad Latina de Costa Rica</h3>
-                <p class="info">BSc of Industrial Engineering <span>&bull;</span> <em class="date">2009 - 2014 </em></p>
-
-                <p>
-                Our environment is full of complex interactions that involve the relationship between people, machines, and the manufacturing systems that 
-                bring them together. Industrial engineers are efficient problem solvers, passionate about designing and implementing solutions for these situations. 
-                The versatility of this career has increased at an exponential rate, becoming one of the most dynamic fields of engineering, thanks to better 
-                management and quality control.
-                </p>
-
-             </div>
-
-          </div> <!-- item end -->
-
-       </div> <!-- main-col end -->
-
-    </div> <!-- End Education -->
-
-
-    <!-- Work
-    ----------------------------------------------- -->
-    <div class="row work">
-
-       <div class="three columns header-col">
-          <h1><span>Work History</span></h1>
-       </div>
-
-       <div class="nine columns main-col">
-
-          <div class="row item">
-
-             <div class="twelve columns">
-
-                <h3>Bluebird Care - Dublin South</h3>
-                <p class="info">Healthcare Assistant <span>&bull;</span> <em class="date">June 2018 - Present</em></p>
-
-                <p>
-                * Assisted disabled individuals to foster independence while still closely monitoring safety.
-                * Assisting with clinical duties.
-                * Consistently communicated with Roster administrator to enable the optimum smooth running of operations.
-                * Interact kindly with patients and familes and displayed a positive, outgoing attitude, establising long-term, professional relationship.
-                </p>
-
-             </div>
-
-          </div> <!-- item end -->
-
-          <div class="row item">
-
-             <div class="twelve columns">
-
-                <h3>World Fuel Services</h3>
-                <p class="info">Billing Operations Specialist <span>&bull;</span> <em class="date">September 2008 - March 2018</em></p>
-
-                <p>
-                * Lead for a creative design for prominent Global Shares Center Continuous Improvement Committee.
-                * Work closely with Dispute Resolution Analyst Team to maintain optimun levels of communication for the effective and efficient completion of cases.
-                * Executed billing tasks: receive, sort, manage and track incoming payments.
-                * Identifiy inconsistences and regularly update recorded information in company database.
-                </p>
-
-             </div>
-
-          </div> <!-- item end -->
-
-       </div> <!-- main-col end -->
-
-    </div> <!-- End Work -->
-
-
-    <!-- Skills
-    ----------------------------------------------- -->
-    <div class="row skill">
-
-       <div class="three columns header-col">
-          <h1><span>Skills</span></h1>
-       </div>
-
-       <div class="nine columns main-col">
-
-          <p>
-              Being a truly great project manager is about more than just training and qualification. Soft skills are what allow you to bring out the best in people,
-            create harmonious relationships between departments, and keep things running smoothly throughout the entire process.  My Soft skills are: 
-            Communicative, Organized, Adaptable, Empathic and Ability to stay calm under pressure.
-            I also have more technical skills:
-          </p>
-
-              <div class="bars">
-
-                 <ul class="skills">
-                     <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-                      <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                      <li><span class="bar-expand css"></span><em>CSS</em></li>
-                      <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
-                  </ul>
-
-              </div><!-- end skill-bars -->
-
-          </div> <!-- main-col end -->
-
-    </div> <!-- End skills -->
-
- </section> <!-- Resume Section End-->
-
-
- 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
+ integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 
 </body>
