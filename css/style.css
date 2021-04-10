@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+
+.grid-bgImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: grid;
+    grid-template-columns: 25fr 30fr 40fr 15fr;
+    grid-template-rows: 20fr 45fr 5fr 30fr;
+    grid-gap: 20px;
+    
+}
+
+.item_img{
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.containerTxt {
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-20%,-25%);
+    width: 100%; 
+}
+.containerTxt span{
+    display: block;
+}
+
+.text1{
+    color:rgb(50, 219, 72);
+    text-transform: lowercase;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2{
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(37, 16, 231);
+}
+
+@keyframes text {
+    0%{
+        color:chartreuse;
+        margin-bottom: -40px;
+
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40;
+
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
