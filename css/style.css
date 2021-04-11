@@ -70,3 +70,37 @@ body{
         margin-bottom: -40px;
     }
 }
+
+@-webkit-keyframes text {
+    0%{
+        color:#003E00;
+        margin-bottom: -40px;
+
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40;
+
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+/* Styling ABOUT */
+.intro h2{
+    font-size: 50px;
+    color: coral;
+}
+
+.landing{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.distortion{
+    width: 640px;
+    height: 920px;
+}
