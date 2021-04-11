@@ -35,11 +35,11 @@ body{
 }
 .containerTxt span{
     display: block;
+    text-transform: lowercase;
 }
 
 .text1{
     color:rgb(50, 219, 72);
-    text-transform: lowercase;
     font-size: 50px;
     font-weight: 900;
     letter-spacing: 4px;
@@ -50,7 +50,6 @@ body{
 .text2{
     font-size: 25px;
     font-weight: 900;
-    text-transform: uppercase;
     color: rgb(37, 16, 231);
 }
 
