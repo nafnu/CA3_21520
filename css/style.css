@@ -4,6 +4,9 @@ body{
     font-family: 'Lora', serif;
 }
 
+.row{
+    margin: 25px;
+}
 
 .grid-bgImage{
     position: absolute;
@@ -182,3 +185,4 @@ body{
     left: 50%;
     transform: skew(0, -20deg);
 }
+
