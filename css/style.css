@@ -34,12 +34,13 @@ body{
     width: 100%; 
 }
 .containerTxt span{
+    margin-left: 25px;
     display: block;
     text-transform: lowercase;
 }
 
 .text1{
-    color:rgb(50, 219, 72);
+    color:rgb(204, 1, 107);
     font-size: 50px;
     font-weight: 900;
     letter-spacing: 4px;
@@ -50,12 +51,12 @@ body{
 .text2{
     font-size: 25px;
     font-weight: 900;
-    color: rgb(37, 16, 231);
+    color: rgb(0, 147, 211);
 }
 
 @keyframes text {
     0%{
-        color:chartreuse;
+        color:rgb(255, 241, 13);
         margin-bottom: -40px;
 
     }
@@ -89,27 +90,43 @@ body{
 
 /* Styling ABOUT */
 .containerA{
-    background-color: #F3DDDF;
+    background-color: black;
+    position: relative;
  }
 
 .containerA h2{
     font-size: 70px;
-    color:#530e53;
     background-color: #FBAB7E;
     background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
 }
 
 
-.h2 p{
+.display-4{
+    margin-left: 25px;
     font-size: 20px;
-    color:#A66998; 
+    color:rgb(204, 1, 107);
 }
 
+.aboutMeTxt{
+    margin-left: 70px;
+    color:rgb(212, 173, 140);
+}
+
+.p-5{
+    width: 270px;
+    height: 270px;
+    display: inline-flexbox;
+    position: relative;
+    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);;
+    padding: 120px;
+    margin: 120px;
+    border-radius: 50%;
+}
 
 .imgBx-fluid{
     display: inline-flexbox;
     position: relative;
-    margin-left: 50px;
+    margin-left: 120px;
     width: 270px;
     height: 270px;
     overflow: hidden;
@@ -143,4 +160,25 @@ body{
     opacity: 1;
     filter: blur(0px);
     transform: translateX(0%) scaleX(1);
+}
+
+.containerA::after,
+.containerA::before { 
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: black;
+    bottom: -1em;
+    z-index: 20;
+}
+
+.containerA::before{
+    right: 50%;
+    transform: skew(0, 20deg);
+}
+
+.containerA::after{
+    left: 50%;
+    transform: skew(0, -20deg);
 }
