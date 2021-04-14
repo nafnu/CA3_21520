@@ -112,24 +112,24 @@ body{
 
 .aboutMeTxt{
     margin-left: 70px;
-    color:rgb(212, 173, 140);
+    color:coral;
 }
 
 .p-5{
     width: 270px;
     height: 270px;
     display: inline-flexbox;
-    position: relative;
+    position: inherit;
     background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);;
-    padding: 120px;
-    margin: 120px;
+    padding: 0px;
+    margin: 20px;
     border-radius: 50%;
 }
 
 .imgBx-fluid{
     display: inline-flexbox;
     position: relative;
-    margin-left: 120px;
+    margin-left: inherit;
     width: 270px;
     height: 270px;
     overflow: hidden;
@@ -185,4 +185,5 @@ body{
     left: 50%;
     transform: skew(0, -20deg);
 }
+
 
