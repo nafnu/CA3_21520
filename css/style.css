@@ -92,39 +92,15 @@ body{
 }
 
 /* Styling ABOUT */
-.containerA{
-    background-color: black;
+.section{
+    padding: 30vh 0;
+}
+
+.about{
+    background-color: #FFC145;
     position: relative;
  }
 
-.containerA h2{
-    font-size: 70px;
-    background-color: #FBAB7E;
-    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-}
-
-
-.display-4{
-    margin-left: 25px;
-    font-size: 20px;
-    color:rgb(204, 1, 107);
-}
-
-.aboutMeTxt{
-    margin-left: 70px;
-    color:coral;
-}
-
-.p-5{
-    width: 270px;
-    height: 270px;
-    display: inline-flexbox;
-    position: inherit;
-    background: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);;
-    padding: 0px;
-    margin: 20px;
-    border-radius: 50%;
-}
 
 .imgBx-fluid{
     display: inline-flexbox;
@@ -165,25 +141,33 @@ body{
     transform: translateX(0%) scaleX(1);
 }
 
-.containerA::after,
-.containerA::before { 
+.about::after,
+.about::before { 
     position: absolute;
     content: '';
     width: 100px;
     height: 100px;
-    background: black;
+    background: red;
     bottom: -1em;
     z-index: 20;
 }
 
-.containerA::before{
+.about::before{
     right: 50%;
     transform: skew(0, 20deg);
 }
 
-.containerA::after{
+.about::after{
     left: 50%;
     transform: skew(0, -20deg);
 }
+
+/* Styling RESUMEN */
+
+
+
+
+/* Styling Contact */
+
 
 
