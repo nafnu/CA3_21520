@@ -168,6 +168,12 @@ body{
 
 
 /* Styling Contact */
+
+.one {
+    background: #FFC145;
+    position:relative;
+    padding: 30vh 0;
+}
 .vertical {
     height: 25vh;
     display: flex;
@@ -190,7 +196,7 @@ body{
   100% { transform: translate3d(0, 0, 0); }
 }
 .animated-title {
-   display: block;
+  display: block;
   color: #222;
   font-family: Roboto, Arial, sans-serif;
   height: 90vmin;
