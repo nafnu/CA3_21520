@@ -170,7 +170,7 @@ body{
 /* Styling Contact */
 
 .one {
-    background: #FFC145;
+    background: #ececea;
     position:relative;
     padding: 30vh 0;
 }
@@ -221,7 +221,7 @@ body{
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid #000;
+  border-bottom: 1vmin solid #4FBE9D;
   top: 0;
 }
 .animated-title > div.text-top div {
@@ -232,7 +232,7 @@ body{
   transform: translate(0, 100%);
 }
 .animated-title > div.text-top div span:first-child {
-  color: #767676;
+  color: #CC016B;
 }
 .animated-title > div.text-bottom {
   bottom: 0;
