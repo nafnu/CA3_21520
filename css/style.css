@@ -2,7 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lora', serif;
+    
 }
+
+
 
 .row{
     margin: 25px;
@@ -834,6 +837,7 @@ body{
     min-width: 3em;
 }
 
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 @keyframes showTopText {
   0% { transform: translate3d(0, 100%, 0); }
@@ -903,3 +907,4 @@ body{
   top: 0;
   transform: translate(0, -100%);
 }
+

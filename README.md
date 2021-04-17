@@ -52,35 +52,29 @@ We can divide the site into 4 small parts:
 
 #### Colour
 What are the best colors for a resume? There is no simple answer to this question. I considering that resume colors depend on the profession you are applying for and the impression you want to make. My CV was oriented towards project management, therefore more professional and neutral. Using black, white, and a third color (like blue, pink, or yellow) is a safe color scheme for any resume. Try to make a dominant color black, secondary white, and use the third to highlight the important parts. <br>
-Also according to what was studied in class, black is the color of sophistication and elegance, I wanted my CV to have that detail and be connected with a personality with the following characteristics: serious, confident, strong, determined, emotionally contained, and introverted.
+Also according to what was studied in class, black is the color of sophistication and elegance. I wanted my CV to have that detail and be connected with a personality with the following characteristics: serious, confident, strong, determined, emotionally contained, and introverted.
 
 #### Issues Faced/Solved
-My first problem was the navigation bar, my connections with Bootstrap were differents versions. After a consultation with the lecturer, pointed the mistake. I linked with the differents versions.
-<br><br>
+Many of the interactions that I was doing with Javascript to create elements dynamic were unsuccessful. There were a number of common JavaScript problems that I had, such as logic problems. With the lack of personal time to do a completed online tutorial to learn an advanced level of this language, and just with the knowledge of basic syntax, I decided to delete JavaScript coding done. Therefore, the only JavaScript connections in this project are the set of libraries that Bootstrap needs in order to work, all the rest of the implementations were handling by CSS language.<br>
+My second big problem was the navigation bar, my connections with Bootstrap were different versions. After a consultation with the lecturer, pointed the mistake. I linked with the different versions.
 
 
-#### References and adaptation explanations
-* Simple CSS Tutorial- https://www.w3schools.com/csS/default.asp
-This was the main motor of my project. I did almost all the tutorial, from refresh the learn in class into really practice coding to advance level. 
-
-* CSS Only Image Distortion Hover Effects https://www.youtube.com/watch?v=F_h4Bm9iu50
-This piece of code I used to make images change when they are hovered over.
-
-* Colour Schema - https://mycolor.space/?hex=%23CC016B&sub=1
-Use this link for colour reference.
-
-* Simple Text Animation Just By Using HTML & CSS https://www.youtube.com/watch?v=Syg_9iB1vco 
+### References and adaptation explanations
+* Simple CSS Tutorial. Available at: https://www.w3schools.com/csS/default.asp (Accessed: Apr 17, 2021).
+This was the main motor of my project. I did almost all the tutorials, from refresh the learn in class into real practice coding to advanced level. 
+* CSS Only Image Distortion Hover Effects. Available at: https://www.youtube.com/watch?v=F_h4Bm9iu50 (Accessed:  Apr 11, 2021).
+This piece of code I used to make images change when they have hovered over.
+* Colour Schema. Available at: https://mycolor.space/?hex=%23CC016B&sub=1 (Accessed: Apr 14, 2021).
+I used this link for colour reference.
+* Simple Text Animation Just By Using HTML & CSS. Available at: https://www.youtube.com/watch?v=Syg_9iB1vco (Accessed: Apr 11, 2021).
 With different videos similar to this and in conjunction with the tutorial made, make the text animations.
-
-* Bootstrap Components - https://getbootstrap.com/docs/5.0/components/accordion/
-Very usufuls tool. I also added some specific customais and little finals touchs in all of them that I used. 
-
+* Bootstrap Components. Available at: https://getbootstrap.com/docs/5.0/components/accordion/ (Accessed: Apr 12, 2021).
+Very useful tool. I also added some specific customize and little finals touch in all of them that I used. 
 
 
-
-
-#### User testing
-
+## User testing
+* Two people tested my website. The first person was a relative who had a degree in Computer Science and the other was a friend who is a copywriter.
+* The first person asked you to test the website on a normal computer. The second person tested it on a mobile.
 
 ## GDPR
 The images used were personal pictures.<br>
