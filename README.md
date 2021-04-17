@@ -60,6 +60,24 @@ My first problem was the navigation bar, my connections with Bootstrap were diff
 
 
 #### References and adaptation explanations
+* Simple CSS Tutorial- https://www.w3schools.com/csS/default.asp
+This was the main motor of my project. I did almost all the tutorial, from refresh the learn in class into really practice coding to advance level. 
+
+* CSS Only Image Distortion Hover Effects https://www.youtube.com/watch?v=F_h4Bm9iu50
+This piece of code I used to make images change when they are hovered over.
+
+* Colour Schema - https://mycolor.space/?hex=%23CC016B&sub=1
+Use this link for colour reference.
+
+* Simple Text Animation Just By Using HTML & CSS https://www.youtube.com/watch?v=Syg_9iB1vco 
+With different videos similar to this and in conjunction with the tutorial made, make the text animations.
+
+* Bootstrap Components - https://getbootstrap.com/docs/5.0/components/accordion/
+Very usufuls tool. I also added some specific customais and little finals touchs in all of them that I used. 
+
+
+
+
 
 #### User testing
 
