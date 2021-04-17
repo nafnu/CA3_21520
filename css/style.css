@@ -253,11 +253,9 @@ body{
 
 }
 
-.area p{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.container .jumbotron {
+    padding-left: 60px;
+    }
 
 .imgBx-fluid{
     position: absolute;
@@ -826,16 +824,6 @@ body{
     position:relative;
     padding: 30vh 0;
 }
-.vertical {
-    height: 25vh;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-.abcd {
-    min-width: 3em;
-}
 
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
@@ -908,3 +896,51 @@ body{
   transform: translate(0, -100%);
 }
 
+/* STAYLING FOOTER */
+
+.vertical {
+    height: 25vh;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.abcd {
+    min-width: 3em;
+}
+
+.copyright {
+    background-color: #f0f0f0;
+}
+
+.copyright p {
+   margin: 15px 0px 50px;
+}
+
+
+
+footer .menu li a {
+	color:#222222;
+	padding:10px;
+	text-decoration:none;
+}
+
+footer .menu li a:hover {
+	color:#7dabdb;
+}
+
+.fa.fa-facebook , 
+.fa.fa-twitter, 
+.fa.fa-instagram ,  
+.fa.fa-linkedin {
+	color: #b1aca1;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.fa.fa-facebook:hover, 
+.fa.fa-twitter:hover,
+.fa.fa-instagram:hover, 
+.fa.fa-linkedin:hover {
+	color: #6794c2;
+}
