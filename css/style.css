@@ -320,13 +320,14 @@ body{
     letter-spacing: -3px;
     margin: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 20%;
     transform: translateX(-50%) translateY(-50%);
-  }
+    padding: inherit;
+}
   
-  .aboutMe:before,
-  .aboutMe:after {
+.aboutMe:before,
+.aboutMe:after {
     content: '';
     padding: .9em .4em;
     position: absolute;
@@ -336,15 +337,16 @@ body{
     display: block;
     border: 15px solid red;
     transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    -webkit-animation:10s infinite alternate ease-in-out tipsy;
     animation: 10s infinite alternate ease-in-out tipsy;
-  }
+}
   
-  .aboutMe:before {
+.aboutMe:before {
     border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
     z-index: -1;
-  }
+}
   
-  .aboutMe:after {
+.aboutMe:after {
     border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
     box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
   } transform: skew(0, -20deg);
@@ -429,18 +431,9 @@ body{
 @keyframes animate-positive{
     0%{ width: 0; }
 }
-License Terms
+
 
 /* Styling RESUMEN */
-.work{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 42px;
-    background: #ca8318;;
-}
 
 .letterRamd{
     margin: 0 25px;
@@ -449,6 +442,9 @@ License Terms
 	animation: span 3s ease-in infinite alternate;
 }
 .main{
+    width: 100%;
+    height: 20vh;
+    font-size: 30px;
 	display: flex;
 	justify-content: default;
 	align-items: flex-start;
@@ -456,8 +452,8 @@ License Terms
 }
 .letter{
 	display: inline-flex;
-	height: 30px;
-	width: 27px;
+	height: 50px;
+	width: 47px;
 	/* border: 2.5px solid #FF1EAD; */
 	border: 2.35px solid black;
 	border-radius: 14px;
