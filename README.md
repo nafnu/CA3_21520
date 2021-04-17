@@ -75,6 +75,12 @@ Very useful tool. I also added some specific customize and little finals touch i
 ## User testing
 * Two people tested my website. The first person was a relative who had a degree in Computer Science and the other was a friend who is a copywriter.
 * The first person asked you to test the website on a normal computer. The second person tested it on a mobile.
+* The first person likes the home page a lot, he really enjoys it on the website. He said that not problems when reducing the size of the website and the content of a website flow a lot more smoothly creating a gradual informative experience.
+* The second person said the way to divide the content into "differents parts" [layout for us] instead of just making a giant wall of text; it makes it much more readable the website.
+* Both users reported no big errors about the site. 
+
+## Considerations
+I committed a lot of mistakes in the formatting, naming conventions, and commenting. I have a lot of improvement to be a good programmer in Front Web. However, I felt very proud of this job. Six months before, I would think never will be available to reach develop a site. With the comments of the users, I can say that I get part of the purpose of this project, it’s to arrange the content on your website in a pleasing and easy-to-understand way to improve the user’s experience and ease of use when on the website. It was a lot of time invert to learn new tools, and in life everything is useful. Mysteries paths! I know I oriented my CV to project management, but, this project created a sparkle new area to go.
 
 ## GDPR
 The images used were personal pictures.<br>
