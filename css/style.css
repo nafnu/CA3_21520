@@ -350,8 +350,13 @@ body{
 
 .work{
     background-color: #f7f7f7;
-    margin-top:20px;
 }
+
+.education{
+    position: relative;
+    margin-bottom: 100px;
+}
+
 .main-timeline {
     position: relative
 }
@@ -406,7 +411,7 @@ body{
 
 .main-timeline .icon:before {
     background: #fff;
-    border: 2px solid #232323;
+    border: 2px solid #506EF7;
     left: -3px
 }
 
@@ -467,7 +472,7 @@ body{
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #232323;
+    border: 2px solid #506EF7;
     left: -6px
 }
 
@@ -514,6 +519,7 @@ body{
 .main-timeline .title {
     font-size: 19px;
     font-weight: 700;
+    color: #81574F;
     line-height: 24px;
     margin: 0 0 15px 0
 }
@@ -601,6 +607,74 @@ body{
     }
 }
 
+#accordion6 .panel{
+    border: 1px solid #bf6026;
+    border-radius: 0;
+    box-shadow: none;
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
+ 
+#accordion6 .panel-heading{
+    padding: 0;
+    background: #fff;
+    position: relative;
+}
+#accordion6 .panel-heading:before,
+#accordion6 .panel-heading:after{
+    content: "";
+    border-right: 8px solid #bf6026;
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    position: absolute;
+    top: 12px;
+    left: -9px;
+}
+#accordion6 .panel-heading:after{
+    border-right: 7px solid #fff;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    position: absolute;
+    top: 13px;
+    left: -6px;
+}
+#accordion6 .panel-title a{
+    display: block;
+    padding: 3px 20px 3px 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #bf6026;
+    position: relative;
+    background: #f1f1f2;
+}
+#accordion6 .panel-title a:before,
+#accordion6 .panel-title a.collapsed:before{
+    content: "\f068";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #bf6026;
+    text-align: center;
+    border: 1px solid #bf6026;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    transition: all 0.5s ease 0s;
+}
+#accordion6 .panel-title a.collapsed:before{ content: "\f067"; }
+#accordion6 .panel-body{
+    padding: 0 15px 15px;
+    border: none;
+    font-size: 14px;
+    color: #807e7e;
+    line-height: 28px;
+}
+#accordion6 .panel-body p{ margin-bottom: 0; }
+
 /* Styling Contact */
 
 .one {
@@ -655,7 +729,7 @@ body{
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid rgb(0, 147, 211);
+  border-bottom: 1vmin solid rgb(13, 202, 240);
   top: 0;
 }
 .animated-title > div.text-top div {
