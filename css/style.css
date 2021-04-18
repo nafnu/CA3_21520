@@ -442,7 +442,7 @@ body{
   
  
 .progreBars{
-    margin-left: 450px;
+    margin-left: 350px;
 }
 
 .progress-title{
@@ -499,24 +499,24 @@ body{
     z-index: 2;
 }
 .progress.orange:before{ border: 7px solid #fe3b3b; }
-.progress.blue:before{ border: 7px solid #FF91B3; }
-.progress.green:before{ border: 7px solid #FD85B0; }
-.progress.purple:before{ border: 7px solid #C14F7C; }
+.progress.blue:before{ border: 7px solid #C14F7C; }
+.progress.green:before{ border: 7px solid #ee708b; }
+.progress.purple:before{ border: 7px solid #FFBDEC; }
 .progress.orange .progress-value{
     border: 5px solid #fe3b3b;
     color: #fe3b3b;
 }
 .progress.blue .progress-value{
-    border: 5px solid #FF91B3;
-    color: #FF91B3;
-}
-.progress.green .progress-value{
-    border: 5px solid #FD85B0;
-    color: #FD85B0;
-}
-.progress.purple .progress-value{
     border: 5px solid #C14F7C;
     color: #C14F7C;
+}
+.progress.green .progress-value{
+    border: 5px solid #ee708b;
+    color: #ee708b;
+}
+.progress.purple .progress-value{
+    border: 5px solid #FFBDEC;
+    color: #FFBDEC;
 }
 @-webkit-keyframes animate-positive{
     0%{ width: 0; }
