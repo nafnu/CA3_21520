@@ -47,7 +47,8 @@ We can divide the site into 4 small parts:
 4. Cards - Contact site
 
 #### Libraries and Frameworks used
-• Bootstrap
+• Bootstrap 
+• Javascript
 • CSS
 
 #### Colour

@@ -44,7 +44,7 @@ body{
 }
 
 .text1{
-    color:rgb(204, 1, 107);
+    color:#d9524a;
     font-size: 50px;
     font-weight: 900;
     letter-spacing: 4px;
@@ -638,7 +638,7 @@ body{
 
 .main-timeline .icon:before {
     background: #fff;
-    border: 2px solid #506EF7;
+    border: 2px solid rgb(0, 147, 211);
     left: -3px
 }
 
@@ -699,7 +699,7 @@ body{
 
 .main-timeline .date-outer:before {
     background: #fff;
-    border: 2px solid #506EF7;
+    border: 2px solid rgb(0, 147, 211);
     left: -6px
 }
 
@@ -835,7 +835,7 @@ body{
 }
 
 #accordion6 .panel{
-    border: 1px solid #bf6026;
+    border: 1px solid #d9524a;
     border-radius: 0;
     box-shadow: none;
     margin-left: 50px;
@@ -850,7 +850,7 @@ body{
 #accordion6 .panel-heading:before,
 #accordion6 .panel-heading:after{
     content: "";
-    border-right: 8px solid #bf6026;
+    border-right: 8px solid #d9524a;
     border-bottom: 8px solid transparent;
     border-top: 8px solid transparent;
     position: absolute;
@@ -957,7 +957,7 @@ body{
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: 1vmin solid rgb(13, 202, 240);
+  border-bottom: 1vmin solid rgb(0, 147, 211);
   top: 0;
 }
 .animated-title > div.text-top div {
