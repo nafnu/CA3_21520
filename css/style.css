@@ -287,7 +287,7 @@ body{
 }
 
 @-webkit-keyframes tipsy {
-    0 {
+    10 {
       transform: translateX(-50%) translateY(-50%) rotate(0deg);
     }
     100% {
@@ -441,10 +441,6 @@ body{
   }
   
  
-.progreBars{
-    margin-left: 350px;
-}
-
 .progress-title{
     font-size: 18px;
     font-weight: 700;
