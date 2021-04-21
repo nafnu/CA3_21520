@@ -22,9 +22,7 @@ Choose the tools of your interest to design, create and deploy an interactive we
 • The project should be deployed online using GitHub pages or a hosting service of your choice. <br>
 
 ## Running the Project
-https://github.com/nafnu/CA3_21520.git
-Select the file: index.html<br>
-To open the server type <strong>python3 -m http.server 3000</strong>
+https://nafnu.github.io/CA3_21520/
 
 ## Project Summary
 In this project, I can demonstrate the level of learning of different programming languages.I will be programming a semantic HTML and CSS website with a responsive layout. The interactive resume can be seen as the presentation of our career path, the information set with skills so that the recruiter looks interested.
