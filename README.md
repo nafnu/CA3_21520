@@ -73,7 +73,6 @@ Very useful tool. I also added some specific customize and little finals touch i
 
 ## User testing
 * Two people tested my website. The first person was a relative who had a degree in Computer Science and the other was a friend who is a copywriter.
-* The first person asked you to test the website on a normal computer. The second person tested it on a mobile.
 * The first person likes the home page a lot, he really enjoys it on the website. He said that not problems when reducing the size of the website and the content of a website flow a lot more smoothly creating a gradual informative experience.
 * The second person said the way to divide the content into "differents parts" [layout for us] instead of just making a giant wall of text; it makes it much more readable the website.
 * Both users reported no big errors about the site. 
